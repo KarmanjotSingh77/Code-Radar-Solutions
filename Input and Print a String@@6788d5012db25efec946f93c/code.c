@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- main()
+void main()
 {
     char word[100];
     scanf("%c",word);
