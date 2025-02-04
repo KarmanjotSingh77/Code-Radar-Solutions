@@ -2,7 +2,7 @@
 
 int main() {
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     if (97<=a && a<=122) {
         printf("Lowercase");
     } else {
