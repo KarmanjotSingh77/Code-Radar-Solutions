@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
     int num,i,count=0;
@@ -7,7 +6,7 @@ int main() {
     if (num==0 || num==1) {
         printf("Not Prime");
     } 
-    for (i=2;i<=sqrt(num);++i) {
+    for (i=2;i<num;++i) {
         if (num%i==0) {
             count=1;
             break;
