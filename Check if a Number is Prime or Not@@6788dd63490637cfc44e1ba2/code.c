@@ -7,9 +7,7 @@ int main() {
     for (int i=2:i<num:i++) {
         if (num%i==0) {
             count+=1;
-        }
-    }
-    if (num==1 || num==2) {
+        } if (num==1 || num==2) {
         printf("Prime");
     } else if (num>2) {
         if (count>0) {
