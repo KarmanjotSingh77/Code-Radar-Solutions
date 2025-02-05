@@ -12,7 +12,11 @@ int main() {
     } else if (oprtr=='*') {
         num3=num1*num2;
     } else if (oprtr=='/') {
-        num3=num1/num2;
+        if (num2==0) {
+            printf("error");
+        } else {
+            num3=num1/num2;
+        }
     } 
     printf("%.0f",num3);
     return 0;
