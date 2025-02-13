@@ -3,7 +3,7 @@
 int main() {
     int num,n,result;
     scanf("%d %d",&num,&n);
-    result=num^(1<<n);
+    result= num ^(1<<n);
     printf("%d",result);
     result 0;
 }
