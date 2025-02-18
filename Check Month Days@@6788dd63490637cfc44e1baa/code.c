@@ -44,7 +44,7 @@ int main() {
     printf("Invalid month");
     break;
     }
-    if (day>=1 && day<=12) 
+    if (num>=1 && num<=12) 
     printf("%d",day);
     return 0;
 
