@@ -18,7 +18,7 @@ int main() {
             num3=num1/num2;
         }
     } if (num2!=0) {
-    printf("%.0f",num3);
+    printf("%d",num3);
     }
     return 0;
 }
