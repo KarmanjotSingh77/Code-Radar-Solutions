@@ -3,8 +3,8 @@
 int main() {
     int num,day;
     scanf("%d",&num);
-    switch (num);
-    case 1:{
+    switch (num) {
+    case 1:
     day=31;
     break;
     case 2:
