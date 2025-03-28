@@ -15,6 +15,6 @@ int main() {
         if (arr[k]<smal) 
         smal=arr[k];
     }
-    printf("%d %d",larg,smal);
+    printf("%d %d",smal,larg);
 
 }
