@@ -13,6 +13,10 @@ int main() {
             arr2[p]=arr[j];
             p++;
         }
+        while (p<n) {
+            arr[p]=0;
+            p++;
+        }
     }
     for (int i=0;i<n;i++) {
         printf("%d ",arr2[i]);
