@@ -9,7 +9,7 @@ int main() {
     int num;
     scanf("%d",&num);
     for (int j=0;j<n;j++) {
-        if (a[j]==num) {
+        if (arr[j]==num) {
             ind=j;
             cnt=1;
         }
@@ -18,4 +18,5 @@ int main() {
         ind=-1;
     }
     printf("%d",ind);
+    return 0;
 }
