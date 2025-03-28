@@ -6,7 +6,7 @@ int main() {
     for (int i=0;i<num;i++) {
         scanf("%d",&arr[i]);
     }
-    int larg=arr[i];
+    int larg=arr[0];
     for (int j=0;j<num;j++) {
         if (arr[j]>larg) 
         larg=arr[j];
