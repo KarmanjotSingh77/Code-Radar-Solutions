@@ -26,6 +26,6 @@ int main() {
             count1+=1;
         }
     }
-    printf("%d",count1);
+    printf("%d",n-count1);
     return 0;
 }
