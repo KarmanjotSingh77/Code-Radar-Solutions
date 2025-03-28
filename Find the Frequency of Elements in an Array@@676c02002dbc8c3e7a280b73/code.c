@@ -11,21 +11,30 @@ int alreadyExists(int arr[], int n, int len){
 
 int main() {
     int num;
+    int unqnums = 0;
+    int inp;
     scanf("%d", &num);
     int arr[num];
+
     for(int i = 0; i < num; i++){
-        scanf("%d", &arr[i]);
+        scanf("%d", &inp);
+        if(!(alreadyExists(arr, inp, num))){
+            unqnums++;
+        }
+        arr[i] = inp;
     }
-    int unq[num];
+    int unq[unqnums];
 
-    int counter = 0;
+    int counter1 = 0;
     for (int i = 0; i < num; i++){
-        if (!(alreadyExists(unq, arr[i], num)))
-            unq[counter] = arr[i];
-            counter++;
+        if(!(alreadyExists(unq, arr[i], unqnums))){
+            unq[counter1] = arr[i];
+            counter1++;
+        }
     }
 
-    for (int i = 0; i < counter; i++){
+    int counter2 = 0;
+    for (int i = 0; i < unqnums; i++){
         int counter2 = 0;
         for(int j = 0; j < num; j++){
             if(unq[i] == arr[j]){
