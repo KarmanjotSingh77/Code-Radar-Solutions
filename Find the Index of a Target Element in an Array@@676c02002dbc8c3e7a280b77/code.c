@@ -12,6 +12,7 @@ int main() {
         if (arr[j]==num) {
             ind=j;
             cnt=0;
+            break;
         }
     }
     if (cnt=1) {
