@@ -19,6 +19,6 @@ int main() {
         }
     }
     if (!p) printf("Sorted");
-        else printf("Not Sorted");
+        else if (p) printf("Not Sorted");
     return 0;
 }
