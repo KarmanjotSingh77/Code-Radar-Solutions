@@ -7,7 +7,7 @@ int main() {
     }
     for (int j=0;j<n-1;j++) {
         int s=0;
-        for (int k=0;k<n-i-1;k++) {
+        for (int k=0;k<n-j-1;k++) {
             if (a[k]>a[k+1]) {
                 printf("Not Sorted");
                 s=1;
