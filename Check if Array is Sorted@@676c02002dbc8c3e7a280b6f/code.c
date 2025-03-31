@@ -11,6 +11,7 @@ int main() {
             if (a[k]>a[k+1]) {
                 printf("Not Sorted");
                 s=1;
+                break;
             }
         }
         if (!s) printf("Sorted");
