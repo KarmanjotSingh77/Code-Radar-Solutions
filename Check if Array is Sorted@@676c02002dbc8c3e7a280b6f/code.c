@@ -19,6 +19,9 @@ int main() {
         }
     }
     if (!p) printf("Sorted");
-        else if (p) printf("Not Sorted");
+    for (int i=0;i<N;i++) {
+        if (a[i]>a[i+1])
+        printf("Not Sorted");
+    }
     return 0;
 }
