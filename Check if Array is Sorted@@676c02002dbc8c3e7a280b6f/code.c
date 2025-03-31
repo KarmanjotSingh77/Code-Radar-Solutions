@@ -15,7 +15,6 @@ int main() {
             }
         }
         if (!s) {
-           p=s;
            break;
         }
     }
