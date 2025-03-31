@@ -14,8 +14,9 @@ int main() {
                 break;
             }
         }
-        if (!s) printf("Sorted");
-        else printf("Not Sorted");
+        
     }
+    if (!s) printf("Sorted");
+        else printf("Not Sorted");
     return 0;
 }
