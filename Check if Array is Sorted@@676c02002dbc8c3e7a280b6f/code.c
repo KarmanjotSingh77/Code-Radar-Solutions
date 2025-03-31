@@ -10,6 +10,7 @@ int main() {
         for (int k=0;k<n-j-1;k++) {
             if (a[k]>a[k+1]) {
                 s=1;
+                p=s;
             
             }
         }
@@ -19,9 +20,7 @@ int main() {
         }
     }
     if (!p) printf("Sorted");
-    for (int i=0;i<n;i++) {
-        if (a[i]>a[i+1])
-        printf("Not Sorted");
+    else   printf("Not Sorted");
     }
     return 0;
 }
