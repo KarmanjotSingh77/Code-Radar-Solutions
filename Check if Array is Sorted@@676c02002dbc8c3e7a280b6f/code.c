@@ -19,7 +19,7 @@ int main() {
         }
     }
     if (!p) printf("Sorted");
-    for (int i=0;i<N;i++) {
+    for (int i=0;i<n;i++) {
         if (a[i]>a[i+1])
         printf("Not Sorted");
     }
