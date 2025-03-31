@@ -9,12 +9,13 @@ int main() {
         int s=0;
         for (int k=0;k<n-j-1;k++) {
             if (a[k]>a[k+1]) {
-                printf("Not Sorted");
+        
                 s=1;
                 break;
             }
         }
         if (!s) printf("Sorted");
+        else printf("Not Sorted");
     }
     return 0;
 }
