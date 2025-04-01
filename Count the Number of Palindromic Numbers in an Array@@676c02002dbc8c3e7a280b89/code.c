@@ -1,7 +1,10 @@
 # include <stdio.h>
-# include <stdlib.h>
 int ispal(int n) {
-    int temp=abs(n),rem,rev=0;
+    int rem,rev=0;
+    if (n<0) {
+        int temp=n*(-1);
+    }
+    else int temp=n;
     while (temp>0) {
         rem=temp%10;
         rev=rev*10+rem;
