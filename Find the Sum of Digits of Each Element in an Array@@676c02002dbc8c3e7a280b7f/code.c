@@ -19,7 +19,7 @@ int main() {
         arr[j]=check;
     }
     for (int k=0;k<n;k++) {
-        printf("%d",arr[k]);
+        printf("%d ",arr[k]);
     }
     return 0;
 }
