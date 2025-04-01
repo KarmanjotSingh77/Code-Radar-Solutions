@@ -33,7 +33,7 @@ int main() {
     rot(arr, n, k);  // Call the rotation function
 
     for (int j = 0; j < n; j++) {
-        printf("%d ", arr[j]);  // Output the rotated array
+        printf("%d\n", arr[j]);  // Output the rotated array
     }
 
     return 0;
