@@ -1,25 +1,17 @@
 # include <stdio.h>
 int main() {
-    int n,p;scanf("%d",&n);
+    int n,p=1;scanf("%d",&n);
     int a[n];
     for (int i=0;i<n;i++) {
         scanf("%d",&a[i]);
     }
     for (int j=0;j<n-1;j++) {
-        int s=0;
-        for (int k=0;k<n-j-1;k++) {
-            if (a[k]>a[k+1]) {
-                s=1;
-                p=s;
-            
-            }
-        }
-        if (!s) {
-           break;
-        }
+        if (a[j]>a[j+1]) 
+        p=0;
     }
-    if (!p) printf("Sorted");
-    else   printf("Not Sorted");
+    if (p==0) printf("Not Sorted");
+    else printf("Sorted");
     return 0;
-    }
-
+}
+        
+    
