@@ -11,7 +11,7 @@ int main() {
         count1=1;
         break;
     }
-    if (count) printf("YES");
+    if (count1) printf("YES");
     else printf("NO");
     return 0;
 }
