@@ -1,6 +1,6 @@
 # include <stdio.h>
 int add(int num) {
-    int temp=num,sum=0;
+    int temp=+num,sum=0;
     while (temp>0) {
         int el=temp%10;
         sum+=el;
