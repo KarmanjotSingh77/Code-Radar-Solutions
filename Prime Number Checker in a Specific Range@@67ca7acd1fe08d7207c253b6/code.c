@@ -1,5 +1,4 @@
-void  printPrimesInRange(int a,int b)
-  {
+void  printPrimesInRange(int a,int b){
     int count1=0; 
     for (int i=a;i<=b;i++) {
         int count=1;
@@ -17,4 +16,4 @@ void  printPrimesInRange(int a,int b)
         
   }
   if (count1==0) printf("No prime numbers");
-  }
+}
