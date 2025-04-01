@@ -18,7 +18,7 @@ int ispal(int n) {
             scanf("%d",&arr[i]);
         }
         for (int j=0;j<num;j++) {
-            a=ispal(arr[j])
+           int a=ispal(arr[j])
             if (a) count+=1;
         }
         printf("%d",count);
